@@ -24,6 +24,13 @@ class BaiduPage(BasePage):
         self.input_keyword()
         self.click_search()
         time.sleep(6)
+        self.b_search = 'xpath,//*[@id="1"]/h3/a'
+        baidu_class.click_search()
+        time.sleep(6)
+        self.close()
+        self.b_search = 'link,iu李智恩超清壁纸唯美'
+        baidu_class.click_search()
+        time.sleep(6)
         self.driver.quit()
 
     def open_homepage(self):
@@ -32,7 +39,7 @@ class BaiduPage(BasePage):
 
         # 输入搜索关键字
 
-    def input_keyword(self, keys=u'星空物语'):
+    def input_keyword(self, keys=u'李智恩唯美高清壁纸'):
         self.type(self.i_keyword, keys)
 
         # 点击搜索
