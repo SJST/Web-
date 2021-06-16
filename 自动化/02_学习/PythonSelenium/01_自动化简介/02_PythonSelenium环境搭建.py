@@ -55,3 +55,14 @@ from selenium import webdriver
     @step5:执行 03 验证部署成功
 '''
 
+# @Info: Git代码维护
+
+"""
+    @step1: 下载安装Git
+    
+    @step2: 下载安装小乌龟 下载安装语言包
+    
+    @step3: 提交拉取代码 
+           
+"""
+

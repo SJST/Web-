@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/2/9 20:15
 # @Author  : SunJiaTong
-# @Email   : SunJiaTong@
+# @Email   : SunJiaTong
 # @File    : 04_webdriverApi和定位元素.py
 # @Software: PyCharm
 # @Info :
